@@ -135,3 +135,44 @@ section #text span {
     font-size: 1em;
     color: #fff;
 }
+
+img {
+    animation-duration: 2s;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
+}
+
+#bird1,
+#bird2,
+#forest,
+#water {
+    animation-name: rev;
+}
+
+#stones {
+    animation-name: for;
+}
+
+@keyframes for {
+    0% {
+        left: -10px;
+    }
+    50% {
+        left: 10px;
+    }
+    100% {
+        left: -10px;
+    }
+}
+
+@keyframes rev {
+    0% {
+        left: 10px;
+    }
+    50% {
+        left: -10px;
+    }
+    100% {
+        left: 10px;
+    }
+}
