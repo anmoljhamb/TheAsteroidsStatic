@@ -1,0 +1,112 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap");
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
+}
+
+body {
+    scroll-behavior: smooth;
+}
+
+.navbar {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px 50px;
+    width: 100vw;
+    position: fixed;
+    background-color: transparent;
+    transition: all 0.5s;
+    transition-timing-function: linear;
+}
+
+.logo h1 {
+    cursor: pointer;
+}
+
+.nav__links {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.nav__link {
+    margin: 0 10px;
+    color: black;
+    padding: 5px 15px;
+    border-radius: 100px;
+    transition: all 0.5s ease-in-out;
+    text-decoration: none;
+}
+
+.nav__link.active,
+.nav__link:hover {
+    background-color: black;
+    color: white;
+}
+
+.section {
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.section:nth-child(odd) {
+    background-color: rgb(235, 235, 235);
+}
+
+.box {
+    width: 1000px;
+    height: 1000px;
+    background-color: blueviolet;
+    color: burlywood;
+}
+
+.outterBox {
+    height: 900px;
+    width: 100%;
+    background: linear-gradient(90deg, rgb(241, 234, 228), rgb(187, 168, 145), rgb(182, 174, 168));
+    background-size: 200% 200%;
+    -webkit-animation: Animation 5s ease infinite;
+    -moz-animation: Animation 5s ease infinite;
+    animation: Animation 5s ease infinite;
+}
+
+@-webkit-keyframes Animation {
+    0% {
+        background-position: 10% 0%
+    }
+    50% {
+        background-position: 91% 100%
+    }
+    100% {
+        background-position: 10% 0%
+    }
+}
+
+@-moz-keyframes Animation {
+    0% {
+        background-position: 10% 0%
+    }
+    50% {
+        background-position: 91% 100%
+    }
+    100% {
+        background-position: 10% 0%
+    }
+}
+
+@keyframes Animation {
+    0% {
+        background-position: 10% 0%
+    }
+    50% {
+        background-position: 91% 100%
+    }
+    100% {
+        background-position: 10% 0%
+    }
+}
