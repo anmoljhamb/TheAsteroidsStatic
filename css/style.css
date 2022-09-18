@@ -119,23 +119,6 @@ section #text span {
     transform: translateY(100px);
 }
 
-.sec {
-    position: relative;
-    padding: 100px;
-    background-color: var(--primary);
-}
-
-.sec h2 {
-    font-size: 3.5em;
-    color: #fff;
-    margin-bottom: 10px;
-}
-
-.sec p {
-    font-size: 1em;
-    color: #fff;
-}
-
 img {
     animation-duration: 2s;
     animation-timing-function: linear;
@@ -175,4 +158,95 @@ img {
     100% {
         left: 10px;
     }
+}
+
+.sec {
+    position: relative;
+    padding: 100px;
+    padding-bottom: 50px;
+    background-color: var(--primary);
+    opacity: 1;
+    z-index: 10;
+}
+
+.sec h2 {
+    font-size: 4.5em;
+    color: #fff;
+    margin-bottom: 10px;
+    z-index: 10;
+}
+
+.sec h3 {
+    font-size: 1.5em;
+    color: #fff;
+    margin-bottom: 10px;
+    display: inline-block;
+}
+
+.sec p {
+    font-size: 1.5em;
+    color: #fff;
+    max-width: 900px;
+}
+
+.content {
+    padding: 20px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.con_1 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    vertical-align: center;
+}
+
+.con_2 {
+    padding: 50px;
+}
+
+#about_us_img_1 {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10px;
+    box-shadow: 0px 0px 20px 5px;
+}
+
+.con_2 img:hover {
+    transform: scale(1.05);
+    box-shadow: 0px 0px 0px 0px;
+}
+
+.blockquote {
+    padding: 20px;
+    padding-left: 0px;
+    width: 900px;
+}
+
+.quote {
+    font-size: 1.4rem;
+    max-width: 800px;
+    line-height: 1.4;
+    font-style: italic;
+}
+
+.author {
+    float: right;
+    font-size: 1.1rem;
+    font-weight: bold;
+}
+
+.quote-icon {
+    margin-bottom: 10px;
+    color: white;
+}
+
+.blockquote hr {
+    margin-top: 50px;
 }
