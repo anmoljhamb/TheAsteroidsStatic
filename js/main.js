@@ -1,3 +1,6 @@
+arr = [1, 2, 3, 4]
+localStorage.setItem('arr', JSON.stringify(arr));
+
 function onReady() {
     let text = document.getElementById("text");
     let bird1 = document.getElementById("bird1");
