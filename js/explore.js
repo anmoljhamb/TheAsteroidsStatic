@@ -40,6 +40,9 @@ function onReady() {
                 quote_text.innerHTML = ""
             video.style.backgroundImage = `url("${place.image_link}")`
             bgImage.style.backgroundImage = `url("${place.image_link}")`
+            document.querySelector('.btn').addEventListener('click', () => {
+                window.open(place.wiki_link);
+            })
         });
 
     text = document.querySelector(".text");
