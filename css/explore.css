@@ -219,7 +219,7 @@ body {
 }
 
 div>i {
-    color: black;
+    color: #333;
     font-size: 70px;
 }
 
@@ -242,4 +242,11 @@ div>i {
 
 #right:hover {
     margin-left: 20px;
+}
+
+#left:hover,
+#right:hover {
+    background-color: #333;
+    color: white;
+    border-radius: 10px;
 }
