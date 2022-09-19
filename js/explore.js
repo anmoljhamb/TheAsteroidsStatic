@@ -23,11 +23,7 @@ function move(i, d = 200) {
 }
 
 
-
-
-
 function onReady() {
-    const mouseoverEvent = new Event('mouseover');
     mini_title = document.querySelector(".mini-title")
     big_title = document.querySelector(".big-title strong")
     quote_text = document.querySelector(".quote-text")
@@ -56,7 +52,7 @@ function onReady() {
     }
 
 
-    fetch("/assets/data.json")
+    fetch("assets/data.json")
         .then((response) => response.json())
         .then((data) => {
             arr = data.places
