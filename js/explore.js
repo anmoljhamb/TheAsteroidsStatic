@@ -52,7 +52,7 @@ function onReady() {
     }
 
 
-    fetch("assets/data.json")
+    fetch("./data.json")
         .then((response) => response.json())
         .then((data) => {
             arr = data.places
