@@ -1,5 +1,11 @@
 distance = 0;
 
+
+function random(arr) {
+    return arr[Math.random() * arr.length | 0];
+}
+
+
 function move(i) {
 
     distance = distance + 200 * i
@@ -16,26 +22,25 @@ function move(i) {
 
 function onReady() {
 
-    city_names = ["Sahara"]
-    wiki_link = ["https://en.wikipedia.org/wiki/Sahara"]
-    image_links = ["https://images.unsplash.com/photo-1613169620329-6785c004d900?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1470&q=80"]
-    quote_texts = ["Let the dessert set you free."]
-
-
     mini_title = document.querySelector(".mini-title")
     big_title = document.querySelector(".big-title strong")
     quote_text = document.querySelector(".quote-text")
     video = document.querySelector(".landing-page .video")
     bgImage = document.querySelector(".background-landing-page")
 
-
-
-    mini_title.innerHTML = city_names[0]
-    big_title.innerHTML = city_names[0]
-    quote_text.innerHTML = quote_texts[0]
-    video.style.backgroundImage = `url("${image_links[0]}")`
-    bgImage.style.backgroundImage = `url("${image_links[0]}")`
-
+    fetch("/assets/data.json")
+        .then((response) => response.json())
+        .then((data) => {
+            place = random(data.places);
+            mini_title.innerHTML = place.place_name
+            big_title.innerHTML = place.place_name
+            if (quote_text.length)
+                quote_text.innerHTML = place.quote_text
+            else
+                quote_text.innerHTML = ""
+            video.style.backgroundImage = `url("${place.image_link}")`
+            bgImage.style.backgroundImage = `url("${place.image_link}")`
+        });
 
     text = document.querySelector(".text");
     video = document.querySelector(".video");

@@ -1,0 +1,57 @@
+{
+    "places": [{
+            "place_name": "Sahara",
+            "wiki_link": "https://en.wikipedia.org/wiki/Sahara",
+            "image_link": "https://images.unsplash.com/photo-1613169620329-6785c004d900?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1470&q=80",
+            "quote_text": "Let the dessert set you free."
+        },
+        {
+            "place_name": "Yuanyang Rice Terraces",
+            "wiki_link": "https://www.chinadiscovery.com/yunnan/yuanyang/yuanyang-rice-terraces.html",
+            "image_link": "https://ychef.files.bbci.co.uk/976x549/p09zmvzx.jpg",
+            "quote_text": ""
+        },
+        {
+            "place_name": "Plitvice Lakes National Park, Croatia",
+            "wiki_link": "https://whc.unesco.org/en/list/98/",
+            "image_link": "https://www.topcounselingschools.org/wp-content/uploads/2020/09/shutterstock_378871750-1024x683.jpg",
+            "quote_text": ""
+        },
+        {
+            "place_name": "Nuuk, Greenland",
+            "wiki_link": "https://en.wikipedia.org/wiki/Nuuk",
+            "image_link": "https://www.topcounselingschools.org/wp-content/uploads/2020/09/shutterstock_1202776693-1024x683.jpg",
+            "quote_text": ""
+        },
+        {
+            "place_name": "Chefchaouen, Morocco",
+            "wiki_link": "https://en.wikipedia.org/wiki/Chefchaouen",
+            "image_link": "https://d2rdhxfof4qmbb.cloudfront.net/wp-content/uploads/20190408131131/Chefchaouen-Morocco.jpg",
+            "quote_text": ""
+        },
+        {
+            "place_name": "Seljalandsfoss, Iceland",
+            "wiki_link": "https://guidetoiceland.is/travel-iceland/drive/seljalandsfoss",
+            "image_link": "https://www.tripsavvy.com/thmb/5frcfZ-_RgKZgLOGhKvkPDE2huY=/2121x1414/filters:no_upscale():max_bytes(150000):strip_icc()/GettyImages-939518726-5c758a3c46e0fb00019b8c9c.jpg",
+            "quote_text": ""
+        },
+        {
+            "place_name": "Antelope Canyon, Arizona",
+            "wiki_link": "https://www.antelopecanyon.com/",
+            "image_link": "https://www.visitarizona.com/imager/s3_us-west-1_amazonaws_com/aot-2020/images/landmarks/fj6xcr9e0efhjudkswzp_b2b0b89039603b931027eb2900b66531.jpg",
+            "quote_text": ""
+        },
+        {
+            "place_name": "Waitomo Glowworm Cave, New Zealand",
+            "wiki_link": "https://en.wikipedia.org/wiki/Waitomo_Glowworm_Caves",
+            "image_link": "https://media.nomadicmatt.com/2021/waitomo.jpg",
+            "quote_text": ""
+        },
+        {
+            "place_name": "Niagara Falls, Canada",
+            "wiki_link": "https://www.niagarafallstourism.com/",
+            "image_link": "https://www.topcounselingschools.org/wp-content/uploads/2020/09/shutterstock_1374767003-1024x684.jpg",
+            "quote_text": ""
+        }
+    ]
+}
