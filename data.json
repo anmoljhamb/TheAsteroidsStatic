@@ -1,4 +1,9 @@
 {
+    "website": {
+        "navbar": {
+            "name": "The Asteroids"
+        }
+    },
     "places": [{
             "place_name": "Sahara",
             "wiki_link": "https://en.wikipedia.org/wiki/Sahara",
